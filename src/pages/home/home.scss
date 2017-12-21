@@ -1,0 +1,31 @@
+page-home {
+	$unira : #5e35b1;
+	.scroll-content{
+		background: $unira;
+	}
+
+	.bg{
+		background: $unira;
+		input{
+			color: white
+		}
+	}
+	.a{
+		display: table;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		.b{
+			display: table-cell;
+			vertical-align: middle;
+			.logo{
+				width: 30%;
+			}
+			.judul{
+				font-weight: bold;
+				font-size: 150%;
+				color: white;
+			}
+		}
+	}
+}

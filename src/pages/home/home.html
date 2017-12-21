@@ -1,0 +1,56 @@
+<ion-content padding class="u">
+	<div class="a">
+		<div class="b">
+			<ion-grid>
+			  <ion-row>
+			    <ion-col col-12>
+			    	<img class="logo" src="assets/imgs/unira.png">
+			    </ion-col>
+			  </ion-row>
+			  <ion-row>
+			    <ion-col col-12 class="judul">
+			    	APLIKASI TOKEN LOGIN
+			    </ion-col>
+			  </ion-row>
+			  <ion-row>
+			    <ion-col col-12>
+			      <ion-list inset>
+
+					  <ion-item class="bg">
+					    <ion-label>NIM</ion-label>
+					    <ion-input type="text" [(ngModel)]="npm"></ion-input>
+					  </ion-item>
+
+					  <ion-item class="bg">
+					    <ion-label>PIN</ion-label>
+					    <ion-input type="password" [(ngModel)]="pin">></ion-input>
+					  </ion-item><br>
+					  	<button ion-button full (click)="login()">Login</button>
+					  
+
+					</ion-list>
+			    </ion-col>
+			  </ion-row>
+			</ion-grid>
+		</div>
+	</div>
+</ion-content>
+
+
+<ion-list>
+
+  <ion-item>
+    <ion-label>Username</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<div padding>
+  <button block>Sign In</button>
+</div>
